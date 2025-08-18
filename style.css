@@ -17,6 +17,7 @@ header{
     border-bottom: 1px solid #000;
 }
 
+
 ul{
     display: flex;
     flex-direction: row;
@@ -53,14 +54,14 @@ a{
     line-height: 1.75rem;
     font-weight: lighter;
     margin: 1.2rem;
-    width: 80%;
+    width: 92%;
+    margin-bottom: 3rem;
 }
 
 .box{
-    margin-top: 1rem;
     background-color: red;
-    height: 25rem;
-    width: 90%;
+    height: 22rem;
+    width: 92%;
     margin: 1.2rem;
 }
 
@@ -73,14 +74,41 @@ a{
     padding-top: 5rem;
     padding-left: 1rem;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .work-section{
     background-color: #000;
 }
 
+h2{
+    font-size: 3.5rem;
+}
+
+.work-principal{
+    background-color: #000;
+}
+
+.box-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .item{
     background-color: red;
-    height: 25rem;
-    width: 90%;
+    height: 22rem;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.text-item{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+
+

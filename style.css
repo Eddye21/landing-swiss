@@ -40,7 +40,11 @@ a{
 }
 
 .principal{
-    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    column-gap: 7rem;
 }
 
 .swiss{
@@ -53,15 +57,21 @@ a{
     font-size: 1.3rem;
     line-height: 1.75rem;
     font-weight: lighter;
-    margin: 1.2rem;
     width: 92%;
-    margin-bottom: 3rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.box-text{
+    margin-left: 1.3rem;
+    height: 12vh;
+    width: 100vw;
 }
 
 .box{
     background-color: red;
-    height: 22rem;
-    width: 92%;
+    height: 431px;
+    width: 431px;
     margin: 1.2rem;
 }
 
@@ -98,8 +108,8 @@ h2{
 
 .item{
     background-color: red;
-    height: 22rem;
-    width: 92%;
+    height: 431px;
+    width: 431px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,5 +120,11 @@ h2{
     font-weight: bolder;
 }
 
+.text-work-box{
+    margin: 2rem;
+    color: white;
+}
 
-
+/* .text-work{
+    color: white;
+} */

@@ -15,6 +15,7 @@ header{
     height: 4rem;
     align-items: center;
     border-bottom: 1px solid #000;
+    z-index: 3;
 }
 
 
@@ -97,6 +98,7 @@ h2{
 
 .work-principal{
     background-color: #000;
+    border-bottom: 4rem solid #000;
 }
 
 .box-item{
@@ -107,12 +109,18 @@ h2{
 }
 
 .item{
-    background-color: red;
+    background-color: white;
     height: 431px;
     width: 431px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+}
+
+.item:hover{
+    background-color: red;
+    transition: 1s;
 }
 
 .text-item{
@@ -121,11 +129,61 @@ h2{
 }
 
 .text-work-box{
-    margin: 2rem;
+    margin: 1.2rem 0px;
     color: white;
-    
+    width: 92%;
+    height: 30%;
 }
 
-/* .text-work{
-    color: white;
-} */
+.text-work-box.second, .text-work-box.three{
+    margin-right: 2rem;
+}
+
+.text-work:first-child{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.text-work:last-child{
+    padding-top: .8rem;
+    font-size: 17px;
+    color: #A3A3A3;
+}
+
+.principal-about{
+    width: 100vw;
+    height: auto;
+}
+
+.divisor.about{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10rem solid #F5F5F5;
+    height: 56vh;
+    width: 100vw;
+    margin: 1rem 1rem;
+    background-color: white;
+    margin-bottom: 4.5rem;
+    position: relative;
+}
+
+.internal{
+    background-color: white;
+    position: absolute;
+    height: 42vh;
+    width: 70vw;
+    border: 2px solid #000;
+}

@@ -157,6 +157,7 @@ h2{
 }
 
 .divisor.about{
+    margin-left: 1rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
@@ -176,7 +177,7 @@ h2{
     width: 100vw;
     margin: 1rem 1rem;
     background-color: white;
-    margin-bottom: 4.5rem;
+    margin-bottom: 3rem;
     position: relative;
 }
 
@@ -186,4 +187,36 @@ h2{
     height: 42vh;
     width: 70vw;
     border: 2px solid #000;
+}
+
+.text-bigger{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    margin: 1.5rem 1rem;
+}
+
+.text{
+    margin: 1.5rem 1rem;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+ul{
+    flex-direction: column;
+}
+
+.second{
+    margin-right: 50px;
+}
+
+.contact-section{
+    color: white;
+    margin-top: 6rem;
+    border-top: 5rem solid red ;
+    background-color: red;
 }

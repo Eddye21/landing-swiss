@@ -283,6 +283,12 @@ h3{
     border-bottom: 1px solid black;
 }
 
+#name::placeholder, #email::placeholder, #message::placeholder {
+    color: #d4c6c6; 
+    opacity: 1;  
+}
+
+
 /* inputs */
 
 .box-button{
